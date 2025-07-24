@@ -19,9 +19,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
   margin-top: 30px;
-  margin-left: 150px;
-  margin-right: 150px;
 }
 .navber-list {
   display: flex;
@@ -51,16 +51,16 @@
   display: flex;
   justify-content: space-between;
   align-items: end;
-  margin-top: 226px;
-  margin-left: 150px;
-  margin-right: 150px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 250px;
 }
 .content-title {
-  font-size: 65px;
+  font-size: 4.06rem;
   font-weight: bold;
 }
 .content-description {
-  font-size: 22px;
+  font-size: 1.37rem;
   opacity: 50%;
   width: 570px;
   margin-top: 13px;
@@ -69,18 +69,91 @@
   color: #e95a08;
 }
 
-/* Plant Section Style */
+/* Our Plant Section Style */
 .m-title {
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   margin-top: 120px;
 }
 .m-description {
-  font-size: 22px;
+  font-size: 1.37rem;
   opacity: 50%;
   text-align: center;
   width: 888px;
   margin: 0 auto;
   margin-top: 16px;
+}
+
+/* card styles  */
+
+.card {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  margin-top: 50px;
+  gap: 20px;
+  row-gap: 20px;
+}
+
+.box-1 {
+  width: 270px;
+  width: 325px;
+  margin: 0;
+}
+.card-image {
+  width: 350px;
+}
+
+.content-1 {
+  font-size: 1.37rem;
+  color: #111111;
+  text-align: center;
+}
+.content-2 {
+  font-size: 1.37rem;
+  color: #111111;
+  text-align: center;
+}
+
+.ptn-parimary {
+  color: #ffffff;
+  background-color: #e95a08;
+  padding: 19px 90px;
+  border: none;
+  width: 350px;
+}
+
+/* Flower Plant section  */
+.flower-section {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 210px;
+}
+.flower-title {
+  font-size: 3.12rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.flower-description {
+  opacity: 50%;
+  font-size: 1.37rem;
+  margin-top: 25px;
+}
+.right-site {
+  margin-left: 300px;
+}
+.flower-image {
+  width: 600px;
+}
+.flower-description li {
+  margin-top: 45px;
+}
+#flower-plant-image {
+  position: absolute;
+  width: 286px;
+  margin-top: -110px;
+  margin-left: -150px;
 }

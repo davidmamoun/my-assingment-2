@@ -184,38 +184,89 @@
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
   margin-top: 120px;
-  position: relative;
-  background-size: auto;
 }
 
 .box-2 {
   background-image: url(../assets/deal-bloom.png);
   background-repeat: no-repeat;
-  width: 567px;
+  background-size: 100%;
+  width: 367px;
   height: 200px;
+  display: grid;
+  place-content: center;
+  border-radius: 14px;
 }
-
+.banner-title {
+  color: #ffffff;
+  font-size: 1.12rem;
+  text-align: center;
+}
+.banner-description {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+}
 .box-3 {
   background-image: url(../assets/deal-ana.png);
   background-repeat: no-repeat;
+  background-size: 100%;
   width: 367px;
   height: 200px;
+  display: grid;
+  place-content: center;
   border-radius: 14px;
+  margin-top: 25px;
 }
 
 .box-4 {
   background-image: url(../assets/deal-zabo.png);
   background-repeat: no-repeat;
-  width: 800px;
-  height: 460px;
-  border-radius: 14px;
-  margin-right: -1110px;
+  display: grid;
+  place-content: center;
+  border-radius: 22px;
 }
+.banner-title-1 {
+  color: #ffffff;
+  font-size: 3.12rem;
+  text-align: center;
+}
+
+.banner-description-1 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Contact Section Style  */
 
 .contact-section {
   background-image: url(../assets/news-letter-bg.png);
+  background-size: 100%;
   background-repeat: no-repeat;
-  width: 100%;
+  margin-top: 120px;
+  height: auto;
+  display: grid;
+  place-content: center;
+}
+
+.contact-title {
+  color: #ffffff;
+  font-size: 3.12rem;
+  padding-top: 200px;
+  text-align: center;
+}
+.btn-parimary {
+  color: #ffffff;
+  background-color: #e95a08;
+  border: none;
+  padding: 20px 53px;
+  margin-left: -5px;
+}
+.input-dd {
+  padding: 19px 540px 19px 20px;
+  margin-bottom: 200px;
+  margin-top: 25px;
 }
 
 /* Footer Syles  */

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Blossom Bay</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
@@ -23,9 +23,9 @@
           </div>
           <div class="nav-right">
             <ul class="navber-list">
-              <li><a href="">Home</a></li>
-              <li><a id="shop" href="">Shop</a></li>
-              <li><a id="about" href="">About Us</a></li>
+              <li class="mm"><a href="">Home</a></li>
+              <li class="mm"><a id="shop" href="">Shop</a></li>
+              <li class="mm"><a id="about" href="">About Us</a></li>
               <li>
                 <a id="cart" href=""></a>
                   <i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a
@@ -42,13 +42,13 @@
           <p class="content-description inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
         </div>
         <div class="right-content">
-          <img src="assets/hero-flower.png" alt="">
+          <img class="banner-image" src="assets/hero-flower.png" alt="">
         </div>
       </section>
     </header>
     <main>
       <!-- Our Plant Section -->
-      <section>
+      <section class="plnt-section">
         <h3 class="m-title inter">Our <span id="content-df">Plants</span></h3>
         <p class="m-description note-serif">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
       </section>
@@ -89,13 +89,13 @@
           <h4 class="content-2 inter">20 USD</h4>
           <a href=""><button class="ptn-parimary">ADD TO CART</button></a>
         </div>
-        <div class="box-1">
+        <div class="box-1 nn">
           <img class="card-image" src="assets/sample-flower-image.png" alt="">
           <h5 class="content-1 inter">Lily Blossom</h5>
           <h4 class="content-2 inter">20 USD</h4>
           <a href=""><button class="ptn-parimary">ADD TO CART</button></a>
         </div>
-        <div class="box-1">
+        <div class="box-1 nn">
           <img class="card-image" src="assets/sample-flower-image.png" alt="">
           <h5 class="content-1 inter">Lily Blossom</h5>
           <h4 class="content-2 inter">20 USD</h4>
@@ -123,7 +123,7 @@
        <h3 class="latest-deals-title note-serif"><span id="dd-f">Latest</span>  Deals </h3>
       
        <p class="latest-deals-description inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-       
+
        <div class="latest-deals-banner">
         <div class="latest-deals-box">
         <div class="box-2">
@@ -143,19 +143,20 @@
        </div>
        </section>
 
-       <!--contact section-->
-        <section class="contact-section">
-
-            <h3 class="contact-title note-serif">Join the colorful Bunch</h3>
-            
-        <div class="container-contact">
-        <input class="input-dd" type="email" placeholder="Write email">
-        <button class="btn-parimary">Subscribe</button>
+       <!--Subscribe section-->
+        <section class="subscribe-section">
+          <div class="overlay">
+            <h2>Join the colorful Bunch</h2>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Write email" required> <button type="submit">Subscribe </button> 
+              
+            </form>
           </div>
         </section>
+         
     </main>
+    <!-- Footer Section  -->
     <footer>
-      <!-- Footer Section -->
        <section class="footer-section">
         <div class="footer-logo">
           <img src="assets/logo.png" alt="">
@@ -183,6 +184,7 @@
           <img id="links-more" src="assets/icon-youtube.png " alt="">
         </div>
        </section>
+       <p class=" ddd inter ">© 2025 Blossom Bay. All rights reserved.</p>
     </footer>
   </body>
 </html>
